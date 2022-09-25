@@ -1,14 +1,7 @@
-import bodyParser from 'body-parser';
-import express, { Request, Response } from 'express';
+import { initApp } from "./app";
 
-const app = express();
-
-app.use(bodyParser);
-
-app.get('/test', (req: Request, res: Response) => {
-  res.json({ message: 'ok'})
-})
+const app = initApp();
 
 app.listen(process.env.PORT, () => {
-  console.log(`server is running on port : ${process.env.PORT}`)
-})
+  console.log(`server is running on port : ${process.env.PORT}`);
+});

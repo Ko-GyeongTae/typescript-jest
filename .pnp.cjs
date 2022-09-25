@@ -33,7 +33,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@types/body-parser", "npm:1.19.2"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/express-pino-logger", "npm:4.0.3"],\
             ["@types/express-useragent", "npm:1.0.2"],\
@@ -41,7 +40,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/http-errors", "npm:1.8.2"],\
             ["@types/jest", "npm:29.0.3"],\
             ["@types/node", "npm:18.7.20"],\
-            ["body-parser", "npm:1.20.0"],\
             ["dotenv", "npm:16.0.2"],\
             ["express", "npm:4.18.1"],\
             ["express-pino-logger", "npm:7.0.0"],\
@@ -50,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["helmet", "npm:5.1.1"],\
             ["http-errors", "npm:2.0.0"],\
             ["jest", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:29.0.3"],\
+            ["jest-extended", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:3.1.0"],\
             ["pino-pretty", "npm:9.1.0"],\
             ["supertest", "npm:6.2.4"],\
             ["ts-jest", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:29.0.2"],\
@@ -3876,6 +3875,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["jest-extended", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/jest-extended-npm-3.1.0-71230ee916-1656670f7c.zip/node_modules/jest-extended/",\
+          "packageDependencies": [\
+            ["jest-extended", "npm:3.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:3.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/jest-extended-virtual-56da6acf7e/0/cache/jest-extended-npm-3.1.0-71230ee916-1656670f7c.zip/node_modules/jest-extended/",\
+          "packageDependencies": [\
+            ["jest-extended", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:3.1.0"],\
+            ["@types/jest", "npm:29.0.3"],\
+            ["jest", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:29.0.3"],\
+            ["jest-diff", "npm:29.0.3"],\
+            ["jest-get-type", "npm:29.0.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/jest",\
+            "jest"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["jest-get-type", [\
         ["npm:29.0.0", {\
           "packageLocation": "./.yarn/cache/jest-get-type-npm-29.0.0-0b3b41ed86-9abdd11d69.zip/node_modules/jest-get-type/",\
@@ -6045,7 +6068,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["typescript-jest", "workspace:."],\
-            ["@types/body-parser", "npm:1.19.2"],\
             ["@types/express", "npm:4.17.14"],\
             ["@types/express-pino-logger", "npm:4.0.3"],\
             ["@types/express-useragent", "npm:1.0.2"],\
@@ -6053,7 +6075,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/http-errors", "npm:1.8.2"],\
             ["@types/jest", "npm:29.0.3"],\
             ["@types/node", "npm:18.7.20"],\
-            ["body-parser", "npm:1.20.0"],\
             ["dotenv", "npm:16.0.2"],\
             ["express", "npm:4.18.1"],\
             ["express-pino-logger", "npm:7.0.0"],\
@@ -6062,6 +6083,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["helmet", "npm:5.1.1"],\
             ["http-errors", "npm:2.0.0"],\
             ["jest", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:29.0.3"],\
+            ["jest-extended", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:3.1.0"],\
             ["pino-pretty", "npm:9.1.0"],\
             ["supertest", "npm:6.2.4"],\
             ["ts-jest", "virtual:8fdd0453bdd950cfbb8fdb4d3fcf4b3765ab2e9aca81384ea740ffd4c58eea3472880eadf6be0eb18a9d3cec7a639ddf2b80b29335b84c9907298ef7361ed8fe#npm:29.0.2"],\

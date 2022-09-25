@@ -858,7 +858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/body-parser@npm:*, @types/body-parser@npm:^1.19.2":
+"@types/body-parser@npm:*":
   version: 1.19.2
   resolution: "@types/body-parser@npm:1.19.2"
   dependencies:
@@ -1382,7 +1382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"body-parser@npm:1.20.0, body-parser@npm:^1.20.0":
+"body-parser@npm:1.20.0":
   version: 1.20.0
   resolution: "body-parser@npm:1.20.0"
   dependencies:
@@ -2887,7 +2887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^29.0.3":
+"jest-diff@npm:^29.0.0, jest-diff@npm:^29.0.3":
   version: 29.0.3
   resolution: "jest-diff@npm:29.0.3"
   dependencies:
@@ -2932,6 +2932,18 @@ __metadata:
     jest-mock: ^29.0.3
     jest-util: ^29.0.3
   checksum: 76cd5759cdb08d3a4619004a23cc45fb8d103004b4d3e95451a36b981540c5d56e4f2a5b3cafb8ecf144bf874633ea86118a202e08aec1f445a25caf4081d8bc
+  languageName: node
+  linkType: hard
+
+"jest-extended@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "jest-extended@npm:3.1.0"
+  dependencies:
+    jest-diff: ^29.0.0
+    jest-get-type: ^29.0.0
+  peerDependencies:
+    jest: ">=27.2.5"
+  checksum: 1656670f7c58419f2ab1ff177db03b79e974faae88b4bdeaa4188fe962a623d77a78df0f9f06dc8a8a945c6e8d081fa48a8d3cf220434cc2ef7831dfa4ee9413
   languageName: node
   linkType: hard
 
@@ -4840,7 +4852,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "typescript-jest@workspace:."
   dependencies:
-    "@types/body-parser": ^1.19.2
     "@types/express": ^4.17.14
     "@types/express-pino-logger": ^4.0.3
     "@types/express-useragent": ^1.0.2
@@ -4848,7 +4859,6 @@ __metadata:
     "@types/http-errors": ^1.8.2
     "@types/jest": ^29.0.3
     "@types/node": ^18.7.20
-    body-parser: ^1.20.0
     dotenv: ^16.0.2
     express: ^4.18.1
     express-pino-logger: ^7.0.0
@@ -4857,6 +4867,7 @@ __metadata:
     helmet: ^5.0.2
     http-errors: ^2.0.0
     jest: ^29.0.3
+    jest-extended: ^3.1.0
     pino-pretty: ^9.1.0
     supertest: ^6.2.4
     ts-jest: ^29.0.2
